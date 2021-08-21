@@ -1,0 +1,120 @@
+@media (max-width : 1023px){
+  .grid{
+    max-width: 725px;
+    margin: auto;
+  }
+  .headerr .courses>ul{
+    display: none;
+  }
+
+  .information .student{
+    display: none;
+  }
+  .information .notification .icon-3{
+    display: none;
+  }
+  .information .notification .icon-4{
+    display: block;
+  }
+  .learn{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0;
+  }
+  .no-learn{
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    background: #fff;
+    height: 100vh;
+    max-width: 300px;
+  }
+  .learn button{
+    position: absolute;
+    display: block;
+    top: 9px;
+    right: 9px;
+    border: 0;
+    background: none;
+    font-size: 24px;
+  }
+  .card-header>p{
+    display: none;
+  }
+  .icon-4 .card-header{
+    border-bottom: 1px solid rgba(51, 51, 51, .1);
+  }
+  .icon-4 .card-header>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  .icon-4 .card-header>h3{
+    width: 100%;
+    margin: 5px 15px 5px 0;
+  }
+  .icon-4 .card-body > ul{
+    margin: 10px 0;
+  }
+  .icon-4 .card-body > ul > li{
+    list-style: none;
+    padding-left: 20px;
+  }
+  .icon-4 .card-body > ul > li > a{
+    color: rgb(131, 127, 127);
+    text-decoration: none;
+    text-align: center;
+  }
+  .icon-4 .card-body > ul > li > a > span{
+    display: inline-block;
+    padding: 20px 16px;
+
+  }
+  .icon-4 .card-body > ul > li > a>i{
+    font-size: 24px;
+  }
+  .product{
+    width: 50%;
+  }
+  .footer-list section{
+    width: 25%;
+    padding: 0 10px;
+  }
+  .footer-list section:nth-child(1),
+  .footer-list section:nth-child(4),
+  .footer-list section:last-child{
+    width: 50%;
+  }
+}
+@media (max-width: 575px){
+  .no-learn{
+    max-width: inherit;
+  }
+  .no-learn .coure .text{
+    width: 100%;
+  }
+  .no-learn .coure .text>div {
+    width: 100%;
+  }
+  .product{
+    width: 100%;
+  }
+  .footer-list section{
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .footer-list section:nth-child(1),
+  .footer-list section:nth-child(4),
+  .footer-list section:last-child{
+    width: 100%;
+  }
+  .footer-list section button {
+    width: 100%;
+  }
+}
