@@ -47,6 +47,17 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
+.courses>ul>.community{
+  position: relative;
+}
+.courses>ul>.community:hover::before{
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  left: -71px;
+  right: -50px;
+  border: 8px solid transparent;
+}
 .courses>ul>.community:hover .list{
   display: block;
   animation: slide .5s linear;
@@ -67,6 +78,11 @@ body {
   line-height: 50px;
   border: 1px solid rgba(51, 51, 51, .1);
   color: #333;
+  cursor: pointer;
+}
+.courses>ul>li>.list>li:hover{
+  background: #f05123;
+  color: #fff;
 }
 @keyframes slide{
   from{
@@ -197,6 +213,12 @@ body {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
+}
+.learn .card-header>h5{
+  margin: 15px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
 }
 .learn .card-header>h3{
   margin: 15px;
@@ -355,7 +377,6 @@ body {
   padding: 0 10px;
 }
 .footer-list section:nth-child(1),
-.footer-list .section3,
 .footer-list section:last-child{
   width: 25%;
   /* padding: 0 10px; */
