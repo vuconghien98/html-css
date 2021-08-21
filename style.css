@@ -382,11 +382,12 @@ body {
   width: 16.667%;
   padding: 0 10px;
 }
+.footer-list section:nth-child(1){
+  pointer-events: none;
+}
 .footer-list section:nth-child(1),
 .footer-list section:last-child{
   width: 25%;
-  pointer-events: none;
-
 }
 .footer-list section>a>img{
   margin-bottom: 15px;
