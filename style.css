@@ -260,7 +260,7 @@ body {
   color: red;
   margin-bottom: 10px;
 }
-.learn .card-body:hover{
+.learn .card-body:nth-child(1){
  background: rgba(22,24,35,.05);
 }
 .learn-2{
@@ -361,6 +361,12 @@ body {
 .content .content-body > span{
   color: rgba(51, 51, 51, .5);
   font-size: 14px;
+}
+.card-body .list-home{
+  width: 100%;
+}
+.card-body .list-home li:hover {
+  background: #ebebeb;
 }
 /* footer  */
 .footer{
