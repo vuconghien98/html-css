@@ -385,7 +385,7 @@ body {
 .footer-list section:nth-child(1),
 .footer-list section:last-child{
   width: 25%;
-  /* padding: 0 10px; */
+  pointer-events: none;
 
 }
 .footer-list section>a>img{
@@ -429,4 +429,9 @@ body {
 .footer-list section button:hover{
   background: #fff;
   color: #b80257;
+}
+.footer-list section ul li:hover {
+  color: #b80257;
+  cursor: pointer;
+  transition: ease-in .5s;
 }
